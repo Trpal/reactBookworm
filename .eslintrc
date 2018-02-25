@@ -15,6 +15,11 @@
     "node": true
   },
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-tabs": 0,
+    "no-use-before-define": 0,
+    "comma-dangle": 0,
+    "indent": ["error", "tab"],
+    "space-before-function-paren": ["error", "never"]
   }
 }
