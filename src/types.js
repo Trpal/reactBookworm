@@ -1,1 +1,1 @@
-export const USER_LOGGED_IN = "USER_LOGGED_IN";
+export default const USER_LOGGED_IN = "USER_LOGGED_IN";
