@@ -63,12 +63,12 @@ class LoginForm extends React.Component {
 					{errors.email && <InlineError text={errors.email} />}
 				</Form.Field>
 				<Form.Field error={!!errors.password}>
-					<label htmlFor="password">Passowrd</label>
+					<label htmlFor="password">Password</label>
 					<input
 						type="password"
 						id="password"
 						name="password"
-						placeholder="make it secure"
+						placeholder="Make it secure"
 						value={data.password}
 						onChange={this.onChange}
 					/>
